@@ -13,5 +13,10 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "env": {
+    "GEMINI_API_KEY": "placeholder-key"
+  }
 }
